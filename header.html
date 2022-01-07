@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>heading</title>
+  </head>
+  <body>
+      <h1 class="my-5">Hi, <b><?php echo htmlspecialchars($_SESSION["username"]); ?>
+      </b>. Welcome to the portal.</h1>
+      <p>
+          <a href="reset-password.php">Reset Your Password</a>
+          <a href="logout.php">Sign Out of Your Account</a>
+      </p>
+  </body>
+</html>
